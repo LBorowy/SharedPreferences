@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_basicView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.lborowy.sharedpreferences.MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose color"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="red"
+        android:background="@color/myRed"
+        android:id="@+id/mainActivity_button_red"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="blue"
+        android:background="@color/myBlue"
+        android:id="@+id/mainActivity_button_blue"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="green"
+        android:background="@color/myGreen"
+        android:id="@+id/mainActivity_button_green"/>
+
+
+</LinearLayout>
